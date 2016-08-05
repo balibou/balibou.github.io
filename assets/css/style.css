@@ -258,6 +258,7 @@ input {
 }
 
 .portfolio {
+	height: 177px;
 	padding:0 !important;
 	margin:0 !important;
 	display:block;
@@ -304,6 +305,22 @@ input {
 .clients .col-sm-2 {
 	height: 80px;
 	line-height: 80px;
+}
+
+#g > div.container.mt > div > div.col-sm-2.col-sm-offset-1 > img {
+	padding-bottom: 9px;
+}
+
+#g > div.container.mt > div > div:nth-child(5) > img {
+	padding-bottom: 7px;
+}
+
+#sep > div > div > div > button > a {
+	color: #fff;
+}
+
+#sep > div > div > div > button > a:hover {
+	color: #5a5a5a;
 }
 
 /* CONTACT SEPARATOR */
