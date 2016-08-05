@@ -237,6 +237,11 @@ input {
 	padding-left: 15px;
 }
 
+#h > div.container.centered > div:nth-child(1) > div > img {
+	border-radius: 50%;
+	width: 17%;
+}
+
 #h h3 {
 	margin-top: 10px;
 }
