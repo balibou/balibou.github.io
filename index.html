@@ -215,10 +215,10 @@
       animationOptions: {
       duration: 750,
       easing: 'linear',
-      queue: false
+      queue: false,
     },
     masonry: {
-    }
+    },
     }, refreshWaypoints());
 
     function refreshWaypoints() {
@@ -259,7 +259,8 @@
 
         $container.find('.portfolio-item').each(function() {
           $(this).css( {
-          width : itemWidth + 'px'
+          width : itemWidth + 'px',
+          height: '177px'
         });
       });
     }
